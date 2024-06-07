@@ -6,8 +6,10 @@ public class Program
 {
     public static void Main()
     {
+
         Show();
-        Loop();    
+        Loop();
+
     }  
     
     public async static void Show()
@@ -20,7 +22,7 @@ public class Program
     public static void Loop()
     {
         int x = 0;
-        while(true)
+        while(x<100)
         {
             Console.WriteLine(++x);
             Thread.Sleep(100);
